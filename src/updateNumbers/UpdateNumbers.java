@@ -17,6 +17,17 @@ public class UpdateNumbers {
         numbers.add(20);
 
         //Afisarea listei initiale
-        System.out.print("  Lista initiala:: " + numbers);
+        System.out.print("     Lista initiala:: " + numbers + "\n");
+
+        //Gasirea si actualizarea numerelor pare
+        for (int i = 0; i<numbers.size(); i++){
+            int number = numbers.get(i);
+            if (number %2 == 0){
+                numbers.set(i,number + 10);
+            }
+        }
+
+        //Afisarea listei actualizate
+        System.out.print("  lista actualizata:: " + numbers);
     }
 }
