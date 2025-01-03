@@ -21,7 +21,7 @@ public class PeopleManager {
 
     //Metoda de afisarea persoanelor
     public void showPeople(){
-        System.out.print("  Persoanele di harta:: " + people);
+        System.out.println("  Persoanele din harta:: " + people);
     }
 
     //Metoda de eliminare a persoanelor
